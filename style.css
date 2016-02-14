@@ -2,7 +2,7 @@ body
 {
   background-color: #222;
 
-  font-family: Segoe UI ;
+  font-family: Roboto Mono;
 }
 
 .container
@@ -22,7 +22,6 @@ body
   height: 65px;
   margin-bottom: 30px;
   font-size:60px;
-  font-family: Consolas;
 }
 
 .game-css, .description-css
@@ -35,7 +34,6 @@ body
 
 .game-css
 {
-  font-family: Consolas;
   margin-left:100px;
   margin-right: 39px;
 }
