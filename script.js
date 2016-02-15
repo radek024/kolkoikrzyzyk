@@ -29,13 +29,13 @@ function wykonaj(numer) // zajmuje pole danym znakiem - zależnie od tury gry
   podswietlPole(numer);
   if(tura % 2 !=1)
   {
-    document.getElementById("p"+numer).innerText="X";
+    document.getElementById("p"+numer).textContent="X";
     tura++;
     wygasOnClick(numer);
   }
   else
   {
-    document.getElementById("p"+numer).innerText="O";
+    document.getElementById("p"+numer).textContent="O";
     tura++;
     wygasOnClick(numer);
   }
