@@ -1,0 +1,214 @@
+body
+{
+  margin:0;
+  padding: 0;
+  background-color: #222;
+  font-family: Roboto Mono;
+  font-size: 1.6rem;
+}
+
+html
+{
+  font-size: 62.5%;
+}
+
+.container
+{
+  width:80vw;
+  height:90vh;
+  background: #333;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.container > h1
+{
+  text-align: center;
+  color:#FFF;
+  height: 6.5rem;
+  margin-bottom: 3rem;
+  font-size:4vw;
+  box-sizing: border-box;
+}
+
+.game-css, .description-css
+{
+  width: 39%;
+  min-height: 58%;
+  float: left;
+
+}
+
+.game-css
+{
+  margin-left:3.5vw;
+  margin-right: 3.5vw;
+}
+
+.description-css
+{
+  margin-left: 6vw;
+  margin-right: 3vw;
+  min-height: auto;
+  font-size: 2.5vw;
+  color:#FFF;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.output-css
+{
+  margin-left: 6vw;
+  margin-right: 3vw;
+  width: 39%;
+  height: 1%;
+  float:left;
+  font-size: 3vw;
+  color:#FFF;
+  text-align: center;
+}
+
+.linia
+{
+  border: 1px solid #555;
+  float:left;
+  height:35vw;
+}
+
+.button
+{
+    width: 9vw;
+    height: 9vw;
+    margin: 1px;
+    float:left;
+    border:3px solid #FFF;
+    text-align: center;
+    font-size: 9vw;
+    vertical-align: middle;
+    color:#FFF;
+    display: block;
+    line-height: 1;
+}
+
+.button:hover
+{
+  background-color: rgba(0,255,0,0.6);
+  transition: 0.1s;
+  cursor:pointer;
+}
+
+.none:hover
+{
+  background-color: rgba(255,0,0,0.6) !important;
+  transition: 0.1s;
+  cursor: default;
+}
+
+.ok
+{
+  background-color: rgba(0,255,0,0.6);
+  transition: 0.1s;
+}
+
+
+.animuj
+{
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse
+{
+  25% {
+    background-color: #333;
+      }
+
+  50% {
+    background-color: rgb(0,255,0);
+       }
+  75% {
+    background-color: rgb(0,127,0);
+       }
+}
+
+@media only screen and (max-width: 900px)
+{
+
+
+.container
+{
+  min-height: 100vw;
+}
+
+.container > h1
+{
+  font-size:4vw;
+  margin: 0;
+  padding: 0;
+  height: 10vw;
+}
+
+.game-css
+{
+  margin: 0 9%;
+  position: relative;
+  left:2%;
+}
+
+.game-css, .description-css
+{
+  width: auto;
+  min-height: auto;
+  float: left;
+}
+
+.button
+{
+    width: 19vw;
+    height: 19vw ;
+    margin: 0.3vw;
+    float:left;
+    border:3px solid #FFF;
+    text-align: center;
+    font-size: 14vw;
+    vertical-align: middle;
+    color:#FFF;
+    display: block;
+    line-height: none;
+}
+
+.linia
+{
+  border-bottom: 2px solid #FFF;
+  float:left;
+  width: 80%;
+  height: 0;
+  margin:10%;
+}
+
+.description-css
+{
+  padding-left: 6vw;
+  padding-right: 4vw;
+  min-height: auto;
+  font-size: 6.5vw;
+  color:#FFF;
+  text-align: center;
+  text-transform: uppercase;
+  background: #333;
+  margin:0;
+}
+
+.output-css
+{
+  padding: 0 10%;
+  width: 80%;
+  height: auto;
+  float:left;
+  font-size: 10vw;
+  color:#FFF;
+  text-align: center;
+  background: #333;
+  margin: 0 0 10px 0;
+}
+}
